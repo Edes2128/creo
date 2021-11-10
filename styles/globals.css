@@ -1,9 +1,47 @@
+@font-face {
+  font-family: 'Silka';
+  src: url('../fonts/Silka-Regular.woff2') format('woff2'),
+      url('../fonts/Silka-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Silka';
+  src: url('../fonts/Silka-Medium.woff2') format('woff2'),
+      url('../fonts/Silka-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Silka';
+  src: url('../fonts/Silka-Bold.woff2') format('woff2'),
+      url('../fonts/Silka-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.fw-regular{
+  font-weight: normal;
+}
+.fw-medium{
+  font-weight: 500;
+}
+.fw-bold{
+  font-weight: bold;
+}
+
+
 *,
 *::before,
 *::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Silka";
 }
 body {
   background-color: #000000;
@@ -61,4 +99,10 @@ html {
 }
 .home-hyrja{
   margin-top: 150px;
+  margin-bottom: 230px;
+}
+.home-hyrja .title{
+  color: white;
+  font-size: 96px;
+  position: absolute;
 }
