@@ -1,39 +1,38 @@
 @font-face {
-  font-family: 'Silka';
-  src: url('../fonts/Silka-Regular.woff2') format('woff2'),
-      url('../fonts/Silka-Regular.woff') format('woff');
+  font-family: "Silka";
+  src: url("../fonts/Silka-Regular.woff2") format("woff2"),
+    url("../fonts/Silka-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Silka';
-  src: url('../fonts/Silka-Medium.woff2') format('woff2'),
-      url('../fonts/Silka-Medium.woff') format('woff');
+  font-family: "Silka";
+  src: url("../fonts/Silka-Medium.woff2") format("woff2"),
+    url("../fonts/Silka-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Silka';
-  src: url('../fonts/Silka-Bold.woff2') format('woff2'),
-      url('../fonts/Silka-Bold.woff') format('woff');
+  font-family: "Silka";
+  src: url("../fonts/Silka-Bold.woff2") format("woff2"),
+    url("../fonts/Silka-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
-.fw-regular{
+.fw-regular {
   font-weight: normal;
 }
-.fw-medium{
+.fw-medium {
   font-weight: 500;
 }
-.fw-bold{
+.fw-bold {
   font-weight: bold;
 }
-
 
 *,
 *::before,
@@ -97,11 +96,11 @@ html {
 .header {
   padding-top: 37px;
 }
-.home-hyrja{
+.home-hyrja {
   margin-top: 150px;
   margin-bottom: 230px;
 }
-.home-hyrja .title{
+.home-hyrja .title {
   color: white;
   font-size: 96px;
   position: absolute;
