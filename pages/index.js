@@ -18,6 +18,27 @@ export default function Home() {
         <Images src={HyrjaImage} alt="Colorful globe" />
         <p className="title fw-bold" >Crafted with love</p>
       </section>
+      <section className="home-info">
+        <div className="content container flex jc-spaceb" >
+          <div className="left ">
+            <p className="fw-bold" >
+              We define problems, shape <br />
+              opportunities and realize <br />
+              the experience
+            </p>
+          </div>
+          <div className="right flex jc-end">
+            <p className="fw-regular" >
+              Founded in 2021 Creo was born as a multi-disciplinary team of creatives.<br />
+              We are devoted to making a difference through design and technology.<br />
+              Located in Tirana, Albania and Bremen Germany, we have partnered with<br />
+              various top-tier companies to create best-in-class digital products and <br />
+              experiences. The digital world never stands still, tomorrow will be <br />
+              different from today.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

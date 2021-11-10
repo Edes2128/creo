@@ -105,3 +105,19 @@ html {
   font-size: 96px;
   position: absolute;
 }
+.home-info {
+  background-color: white;
+  padding: 122px 0;
+}
+.home-info .content .left,
+.right {
+  width: 50%;
+}
+.home-info .content .left p {
+  font-size: 40px;
+  line-height: 54px;
+}
+.home-info .content .right p {
+  font-size: 16px;
+  line-height: 30px;
+}
