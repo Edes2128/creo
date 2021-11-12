@@ -44,6 +44,16 @@ export default function Home() {
         <Images src={BgSection} alt="Image Background" />
         <p className="fw-bold" >We craft (y)our design</p>
       </section>
+      <section className="home-projects" >
+            <div className="home-projects-container container" >
+              <p className="title fw-bold">Our Projects</p>      
+
+            <div className="home-projects-container-items"> 
+
+            </div>
+
+            </div>
+      </section>
     </>
   )
 }

@@ -141,3 +141,14 @@ html {
   color: white;
   font-size: 81px;
 }
+.home-projects {
+  background-color: white;
+  padding: 100px 0 90px;
+}
+.home-projects-container .title {
+  font-size: 65px;
+  text-align: center;
+}
+.home-projects-container-items {
+  margin: 105px 0 70px;
+}
