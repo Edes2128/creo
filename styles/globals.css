@@ -225,3 +225,26 @@ html {
 .footer .links p:last-child {
   margin-right: 0;
 }
+.about-hyrja {
+  margin-top: 150px;
+  margin-bottom: 285px;
+}
+.about-hyrja .texts {
+  margin-left: 35px;
+}
+.about-hyrja .texts p {
+  color: white;
+}
+.about-hyrja .texts .title {
+  font-size: 45px;
+  line-height: 70px;
+  margin-top: 6px;
+}
+.about-hyrja .texts .subtitle {
+  font-size: 14px;
+}
+.about-hyrja .texts .text {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 6px;
+}
