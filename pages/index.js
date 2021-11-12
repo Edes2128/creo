@@ -3,6 +3,9 @@ import Header from '../components/Header'
 import HyrjaImage from '../images/glob_home.png'
 import BgSection from '../images/home_section_bg.jpg'
 import Images from '../components/Image'
+import Project1 from '../images/project-1.jpg'
+import Project2 from '../images/project-2.jpg'
+import Project3 from '../images/project-3.jpg'
 
 export default function Home() {
   return (
@@ -49,7 +52,24 @@ export default function Home() {
               <p className="title fw-bold">Our Projects</p>      
 
             <div className="home-projects-container-items"> 
-
+              <div className="home-projects-container-items-item" >
+                <Images src={Project1} />
+              </div>
+              <div className="home-projects-container-items-item" >
+                <Images src={Project2} />
+              </div>
+              <div className="home-projects-container-items-item" >
+                <Images src={Project3} />
+              </div>
+              <div className="home-projects-container-items-item" >
+                <Images src={Project2} />
+              </div>
+              <div className="home-projects-container-items-item" >
+                <Images src={Project3} />
+              </div>
+              <div className="home-projects-container-items-item" >
+                <Images src={Project1} />
+              </div>
             </div>
 
             </div>

@@ -150,5 +150,13 @@ html {
   text-align: center;
 }
 .home-projects-container-items {
-  margin: 105px 0 70px;
+  margin: 105px 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 45px;
+  row-gap: 1em;
+  grid-auto-rows: auto;
+}
+.home-projects-container-items-item{
+    margin-bottom: 60px;
 }
