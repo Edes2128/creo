@@ -6,6 +6,8 @@ import Images from '../components/Image'
 import Project1 from '../images/project-1.jpg'
 import Project2 from '../images/project-2.jpg'
 import Project3 from '../images/project-3.jpg'
+import FooterTop from '../components/FooterTop'
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -83,6 +85,8 @@ export default function Home() {
           </a>
         </div>
       </section>
+      <FooterTop />
+      <Footer />
     </>
   )
 }
