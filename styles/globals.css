@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Silka";
-  src: url("../fonts/Silka-Regular.woff2") format("woff2"),
-    url("../fonts/Silka-Regular.woff") format("woff");
+  src: url("/fonts/Silka-Regular.woff2") format("woff2"),
+    url("/fonts/Silka-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: "Silka";
-  src: url("../fonts/Silka-Medium.woff2") format("woff2"),
-    url("../fonts/Silka-Medium.woff") format("woff");
+  src: url("/fonts/Silka-Medium.woff2") format("woff2"),
+    url("/fonts/Silka-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: "Silka";
-  src: url("../fonts/Silka-Bold.woff2") format("woff2"),
-    url("../fonts/Silka-Bold.woff") format("woff");
+  src: url("/fonts/Silka-Bold.woff2") format("woff2"),
+    url("/fonts/Silka-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -33,7 +33,18 @@
 .fw-bold {
   font-weight: bold;
 }
-
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
 *,
 *::before,
 *::after {
