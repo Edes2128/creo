@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import HyrjaImage from '../images/glob_home.png'
+import BgSection from '../images/home_section_bg.jpg'
 import Images from '../components/Image'
 
 export default function Home() {
@@ -38,6 +39,10 @@ export default function Home() {
             </p>
           </div>
         </div>
+      </section>
+      <section className="home-bg flex ai-center jc-center">
+        <Images src={BgSection} alt="Image Background" />
+        <p className="fw-bold" >We craft (y)our design</p>
       </section>
     </>
   )

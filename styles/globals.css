@@ -132,3 +132,12 @@ html {
   font-size: 16px;
   line-height: 30px;
 }
+.home-bg {
+  width: 100%;
+  position: relative;
+}
+.home-bg p {
+  position: absolute;
+  color: white;
+  font-size: 81px;
+}
