@@ -78,8 +78,8 @@ export default function Home() {
             All Work
             <svg xmlns="http://www.w3.org/2000/svg" width="19.592" height="19.385" viewBox="0 0 19.592 19.385">
               <g id="arrow-down-left" transform="translate(9.692 25.956) rotate(-135)">
-                <path id="Path_6" data-name="Path 6" d="M5,8V18H15" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth-width="1" />
-                <line id="Line_2" data-name="Line 2" y1="13" x2="13" transform="translate(5 5)" fill="none" stroke="#000" strokeMiterlimit-miterlimit="10" strokeWidth="1" />
+                <path id="Path_6" data-name="Path 6" d="M5,8V18H15" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="1" />
+                <line id="Line_2" data-name="Line 2" y1="13" x2="13" transform="translate(5 5)" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="1" />
               </g>
             </svg>
           </a>
