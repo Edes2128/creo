@@ -8,7 +8,7 @@ import Project2 from '../images/project-2.jpg'
 import Project3 from '../images/project-3.jpg'
 import FooterTop from '../components/FooterTop'
 import Footer from '../components/Footer';
-
+import Link from 'next/link'
 export default function Home() {
   return (
     <>
@@ -73,16 +73,18 @@ export default function Home() {
               <Images src={Project1} />
             </div>
           </div>
+          <Link href="/portfolio">
+            <a className="all fw-regular flex ai-center">
+              All Work
+              <svg xmlns="http://www.w3.org/2000/svg" width="19.592" height="19.385" viewBox="0 0 19.592 19.385">
+                <g id="arrow-down-left" transform="translate(9.692 25.956) rotate(-135)">
+                  <path id="Path_6" data-name="Path 6" d="M5,8V18H15" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="1" />
+                  <line id="Line_2" data-name="Line 2" y1="13" x2="13" transform="translate(5 5)" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="1" />
+                </g>
+              </svg>
+            </a>
+          </Link>
 
-          <a className="all fw-regular flex ai-center " href="#"  >
-            All Work
-            <svg xmlns="http://www.w3.org/2000/svg" width="19.592" height="19.385" viewBox="0 0 19.592 19.385">
-              <g id="arrow-down-left" transform="translate(9.692 25.956) rotate(-135)">
-                <path id="Path_6" data-name="Path 6" d="M5,8V18H15" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="1" />
-                <line id="Line_2" data-name="Line 2" y1="13" x2="13" transform="translate(5 5)" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="1" />
-              </g>
-            </svg>
-          </a>
         </div>
       </section>
       <FooterTop />
