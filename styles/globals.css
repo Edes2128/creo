@@ -277,3 +277,23 @@ html {
 .about-services-container .items .item .text:last-child {
   margin-bottom: 0;
 }
+.about-clients {
+  padding: 140px 340px 30px;
+}
+.about-clients .title {
+  color: white;
+  text-align: center;
+  font-size: 65px;
+}
+.about-clients .items {
+  margin-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 120px;
+  row-gap: 1em;
+  grid-auto-rows: auto;
+}
+.about-clients .items .item {
+  margin-bottom: 75px;
+}
