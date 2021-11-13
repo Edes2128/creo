@@ -4,7 +4,7 @@ import Images from '../../../components/Image'
 export default function AboutHyrja() {
     return (
         <section className="about-hyrja container flex jc-center ai-center" >
-            <Images src={HyrjaImage} />
+            <Images src={HyrjaImage} priority={true} />
             <div className="texts">
                 <p className="fw-regular subtitle" >Who we are</p>
                 <p className="fw-bold title" >
