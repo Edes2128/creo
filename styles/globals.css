@@ -248,3 +248,8 @@ html {
   line-height: 30px;
   margin-top: 6px;
 }
+.about-services{
+  background-color: white;
+  padding: 128px 0 250px;
+  width: 100%;
+}
