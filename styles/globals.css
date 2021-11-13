@@ -248,8 +248,32 @@ html {
   line-height: 30px;
   margin-top: 6px;
 }
-.about-services{
+.about-services {
   background-color: white;
   padding: 128px 0 250px;
   width: 100%;
+}
+.about-services-container .title {
+  font-size: 20px;
+}
+
+.about-services-container .items {
+  width: 100%;
+  margin-top: 55px;
+}
+.about-services-container .items .item .title {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 22px;
+}
+.about-services-container .items .item:first-child .title {
+  margin-bottom: 55px;
+}
+.about-services-container .items .item .text {
+  font-size: 16px;
+  margin-bottom: 1px;
+  line-height: 30px;
+}
+.about-services-container .items .item .text:last-child {
+  margin-bottom: 0;
 }
