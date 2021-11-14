@@ -250,7 +250,7 @@ html {
 }
 .about-services {
   background-color: white;
-  padding: 128px 0 250px;
+  padding: 128px 0 100px;
   width: 100%;
 }
 .about-services-container .title {
@@ -273,6 +273,7 @@ html {
   font-size: 16px;
   margin-bottom: 1px;
   line-height: 30px;
+  color: black;
 }
 .about-services-container .items .item .text:last-child {
   margin-bottom: 0;
