@@ -452,6 +452,9 @@ html {
   .contact {
     padding: 0 20px;
   }
+  .portfolio {
+    padding: 0 20px;
+  }
 }
 @media (max-width: 1300px) {
   .about-services-container .items {
@@ -460,6 +463,12 @@ html {
     column-gap: 45px;
     row-gap: 1em;
     grid-auto-rows: auto;
+  }
+  .portfolio .title {
+    font-size: 40px;
+  }
+  .portfolio .title br {
+    display: none;
   }
 }
 
@@ -498,6 +507,12 @@ html {
 }
 
 @media (max-width: 1000px) {
+  .portfolio {
+    margin-top: 100px;
+  }
+  .projects {
+    margin-top: 50px;
+  }
   .about-clients .items {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 50px;
@@ -528,9 +543,16 @@ html {
   .footer .logo {
     margin: 30px 0;
   }
+  .projects .items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+  }
 }
 
 @media (max-width: 750px) {
+  .portfolio .title {
+    font-size: 30px;
+  }
   .contact .title {
     font-size: 40px;
   }
