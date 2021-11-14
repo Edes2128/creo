@@ -421,6 +421,9 @@ html {
   margin-bottom: 60px;
 }
 @media (max-width: 1615px) {
+  .home-hyrja{
+    padding: 0 20px;
+  }
   .header {
     padding: 37px 20px 0;
   }
